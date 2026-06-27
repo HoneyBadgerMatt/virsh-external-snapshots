@@ -1,4 +1,13 @@
 #! /usr/bin/env bash
+
+#########################################################################
+##
+##              - Changes made by HoneyBadgerMatt -
+##    - None just yet...
+##    -
+##                                           
+#########################################################################
+
 set -euo pipefail
 
 conf_dir="${HOME}/.local/VM/snapshots"
