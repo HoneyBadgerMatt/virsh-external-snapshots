@@ -3,16 +3,20 @@
 #########################################################################
 ##
 ##              - Changes made by HoneyBadgerMatt -
-##    - None just yet...
+##
+##    - Changed conf dir to suit my/our particular dir structure
 ##    -
 ##                                           
 #########################################################################
 
 set -euo pipefail
 
-conf_dir="${HOME}/.local/VM/snapshots"
+conf_dir="${PWD}virsh-snap/conf"
 prefix="_pre_"
 
+echo -e "conf_dir is: "$conf_dir
+
+exit 0
 
 _help() {
   local script_name
