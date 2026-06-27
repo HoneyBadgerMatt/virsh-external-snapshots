@@ -11,7 +11,7 @@
 
 set -euo pipefail
 
-conf_dir="${PWD}virsh-snap/conf"
+conf_dir="${PWD}/virsh-snap/conf"
 prefix="_pre_"
 
 echo -e "conf_dir is: "$conf_dir
